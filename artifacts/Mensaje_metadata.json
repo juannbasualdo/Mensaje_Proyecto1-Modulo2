@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "mensaje",
+						"type": "string"
+					}
+				],
+				"name": "Mensaje_MensajeActualizado",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getMensaje",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "mensaje_",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mensaje",
+						"type": "string"
+					}
+				],
+				"name": "setMensaje",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "i3arba - 77 Innovation Labs ",
+			"custom:security": "Este es un contrato educativo y no debe ser usado en producción ",
+			"kind": "dev",
+			"methods": {},
+			"title": "Contrato Mensaje ",
+			"version": 1
+		},
+		"userdoc": {
+			"events": {
+				"Mensaje_MensajeActualizado(string)": {
+					"notice": "evento emitido cuando el mensaje es actualizado"
+				}
+			},
+			"kind": "user",
+			"methods": {},
+			"notice": "Este contrato es parte del primer proyecto del Ethereum Developer Pack ",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Proyecto1-Modulo2.sol": "Mensaje"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Proyecto1-Modulo2.sol": {
+			"keccak256": "0xa5cbed48450870bbdd4a396b3746ecc9e9c732bae7efaeb37808d2eda8db331b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3051110200bfabf29a9ee8611d961917dc122e222974d219057a41e5aefe6d8e",
+				"dweb:/ipfs/QmRLsZYVEZ1yoNCBKsRg5AFMJKiEdTHMMVvGU1441AZcQQ"
+			]
+		}
+	},
+	"version": 1
+}
